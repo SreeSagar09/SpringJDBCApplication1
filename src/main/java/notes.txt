@@ -6,6 +6,17 @@ Note:
 * JdbcTemplate class is provide different method to execute sql queries.
 * JDBCTemplate class has many update overload method and those methods are return int value which is number of rows are effected.
 * update(final String sql) method used to execute single sql update queries, by using this method if any input parameters are there then we have to pass value in query it self.
+Queries:
+* CREATE TABLE `employee` (
+	`employee_id` INT(10) NOT NULL AUTO_INCREMENT,
+	`employee_code` VARCHAR(50) NULL DEFAULT NULL COLLATE 'utf8mb4_0900_ai_ci',
+	`employee_name` VARCHAR(150) NULL DEFAULT NULL COLLATE 'utf8mb4_0900_ai_ci',
+	`age` INT(10) NULL DEFAULT NULL,
+	`designation` VARCHAR(100) NULL DEFAULT NULL COLLATE 'utf8mb4_0900_ai_ci',
+	PRIMARY KEY (`employee_id`) USING BTREE
+);
+
+* insert into employee (employee_code, employee_name, age, designation) values ('A003', 'Aravind', 28, 'QA Engineer');
 Output:
 Number of Beans: 2
 Beans Names:
