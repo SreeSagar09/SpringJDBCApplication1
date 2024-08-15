@@ -1,0 +1,1 @@
+Simple Program to show how to configure spring jdbc using xml file and how to insert record in to db:

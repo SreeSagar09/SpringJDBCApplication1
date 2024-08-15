@@ -1,0 +1,14 @@
+Simple Program to show how to configure spring jdbc using xml file and how to insert record in to db:
+Programs:
+* Employee.java
+* Test.java
+Note:
+* JdbcTemplate class is provide different method to execute sql queries.
+* JDBCTemplate class has many update overload method and those methods are return int value which is number of rows are effected.
+* update(final String sql) method used to execute single sql update queries, by using this method if any input parameters are there then we have to pass value in query it self.
+Output:
+Number of Beans: 2
+Beans Names:
+driverManagerDataSource
+jdbcTemplate
+Record inserted successfully.
